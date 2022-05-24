@@ -56,7 +56,7 @@ print_info() {
     info title
     info underline
 
-    info "OS" distro
+    prin "OS" "Gentoo"
     info "Host" model
     info "Kernel" kernel
     info "Uptime" uptime
@@ -136,7 +136,7 @@ distro_shorthand="off"
 # Example:
 # on:  'Arch Linux x86_64'
 # off: 'Arch Linux'
-os_arch="on"
+os_arch="off"
 
 
 # Uptime
@@ -820,7 +820,7 @@ image_source="auto"
 #       Slackware, SunOS, LinuxLite, OpenSUSE, Raspbian,
 #       postmarketOS, and Void have a smaller logo variant.
 #       Use '{distro name}_small' to use the small variants.
-ascii_distro="auto"
+ascii_distro="Gentoo"
 
 # Ascii Colors
 #
